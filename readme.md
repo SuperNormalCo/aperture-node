@@ -125,6 +125,13 @@ Default: `30`
 
 Number of frames per seconds.
 
+#### scaleFactor
+
+Type: `number`\
+Default: `1`
+
+The actual height and width of the capture will be multiplied by this number to create the height and width of the output.
+
 #### cropArea
 
 Type: `object`\
@@ -167,13 +174,6 @@ Audio device to include in the screen recording. Should be one of the `id`'s fro
 Type: `string`\
 Default: `'h264'`\
 Values: `'hevc' | 'h264' | 'proRes422' | 'proRes4444'`
-
-#### scaleFactor
-
-Type: `number`\
-Default: `1`
-
-The actual height and width of the capture will be multiplied by this number to create the height and width of the output.
 
 A computer with Intel 6th generation processor or newer is strongly recommended for the `hevc` codec, as otherwise it will use software encoding, which only produces 3 FPS fullscreen recording.
 
