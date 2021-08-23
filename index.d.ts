@@ -61,6 +61,11 @@ declare namespace aperture {
     The `proRes422` and `proRes4444` codecs are uncompressed data. They will create huge files.
     */
     readonly videoCodec?: VideoCodec;
+
+    /**
+    The actual height and width of the capture will be multiplied by this number to create the height and width of the output.
+    */
+    readonly scaleFactor: number;
   };
 
   interface Recorder {

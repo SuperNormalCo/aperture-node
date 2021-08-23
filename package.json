@@ -1,9 +1,9 @@
 {
-  "name": "aperture",
+  "name": "@supernormalco/aperture-node",
   "version": "6.0.1",
   "description": "Record the screen on macOS",
   "license": "MIT",
-  "repository": "wulkano/aperture-node",
+  "repository": "SuperNormalCo/aperture-node",
   "engines": {
     "node": ">=10"
   },
